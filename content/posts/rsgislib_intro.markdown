@@ -7,7 +7,7 @@ modified: 2019-11-15
 
 ## Introduction
 
-The Remote Sensing and GIS Software Library [RSGISLib](https://www.rsgislib.org) is primarily developed and supported by Pete Bunting and Dan Clewley; it was initially developed to provide the functionality we required for our research, where it wasn't available in existing software packages. However, RSGISLib has evolved into a set of Python modules providing a wide range of functionality which is scriptable, creating a flexible system for data analysis and batch processing. The available modules are:
+The Remote Sensing and GIS Software Library [RSGISLib](https://www.rsgislib.org) is primarily developed and supported by Pete Bunting and Dan Clewley; it was initially developed to provide the functionality we required for our research where it wasn't available in existing software packages. However, RSGISLib has evolved into a set of Python modules providing a wide range of functionality which is scriptable, creating a flexible system for data analysis and batch processing. The available modules are:
 
 * Image Calibration
 * Classification
@@ -24,9 +24,15 @@ The Remote Sensing and GIS Software Library [RSGISLib](https://www.rsgislib.org)
 * Vector Utilities
 * Zonal Statistics
 
+### Other Software Tools
 
+#### The KEA File Format
+The KEA file format developed by \citet{BuntingGillingham2013} and named after the New Zealand bird (Kea) is a HDF5 based image file format with a GDAL driver. Therefore, the format can be used in any software using GDAL, provided the KEA library is available. It offers support for large raster attribute tables and uses zlib based compression to provide small file sizes. The development was funded and supported by Landcare Research, New Zealand.
+
+#### TuiView
+TuiView is an open source viewer for remote sensing data, named after the New Zealand bird (Tui). Although primarily for viewing raster data but it will also display vectors. One of the main advantages of TuiView is it has a lot of functionality for viewing and manipulating Raster Attribute Tables (RAT), which the object-based classification within RSGISLib is build on top of. TuiView is cross platform and provides a consistent interface across Windows, Linux and Mac platforms. It is capable of handling very large datasets, providing overviews are generated.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MTQwNDUyNywxMTQ3MTE1MDE0XX0=
+eyJoaXN0b3J5IjpbLTQxNTk1ODI0OCwxMTQ3MTE1MDE0XX0=
 -->
