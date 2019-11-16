@@ -39,12 +39,8 @@ The [Geospatial Data Abstraction Library (GDAL)](http://www.gdal.org)  software 
 * **gdalbuildvrt** -- Build a Virtual Raster (VRT) from a list of datasets.
 * **gdal_merge.py** -- Build a quick mosaic from a set of images.
 * **gdal_rasterize** -- Rasterise vectors into raster file.
-	\item \verb|gdal_proximity.py| -- Compute a raster proximity map.
-	\item \verb|gdal_polygonize.py| -- Generate polygons from raster.
-	\item \verb|gdal_sieve.py| -- Raster Sieve filter.
-	\item \verb|gdal_fillnodata.py| -- Interpolate to fill no-data regions.
-	\item \verb|gdalmanage| -- Identify, copy, rename and delete raster.
-	\item \verb|gdalcompare.py| -- Compare two images and report on differences.
+* **gdal_polygonize.py** -- Generate polygons from raster.
+
 
 #### The KEA File Format
 The KEA file format developed by \citet{BuntingGillingham2013} and named after the New Zealand bird (Kea) is a HDF5 based image file format with a GDAL driver. Therefore, the format can be used in any software using GDAL, provided the KEA library is available. It offers support for large raster attribute tables and uses zlib based compression to provide small file sizes. The development was funded and supported by Landcare Research, New Zealand.
@@ -54,5 +50,5 @@ TuiView is an open source viewer for remote sensing data, named after the New Ze
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ5NjI4NTgyLDExNDcxMTUwMTRdfQ==
+eyJoaXN0b3J5IjpbLTE2NzQ3ODgzMDIsMTE0NzExNTAxNF19
 -->
