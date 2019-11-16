@@ -33,7 +33,18 @@ Alongside RSGISLib we use other tools, such as the [GDAL](https://www.gdal.org) 
 #### GDAL
 The [Geospatial Data Abstraction Library (GDAL)](http://www.gdal.org)  software provides functionality to convert between many image and vector file format but it has been extended to provide a set of utilities for processing image data. The most useful utilities are:
 
-
+* **gdalinfo** -- report information about a file.
+* **gdal_translate** -- Copy a raster file, with control of output format.
+* **gdalwarp** -- Warp an image into a new coordinate system.
+* **gdalbuildvrt** -- Build a Virtual Raster (VRT) from a list of datasets.
+* **gdal_merge.py| -- Build a quick mosaic from a set of images.
+	\item \verb|gdal_rasterize| -- Rasterise vectors into raster file.
+	\item \verb|gdal_proximity.py| -- Compute a raster proximity map.
+	\item \verb|gdal_polygonize.py| -- Generate polygons from raster.
+	\item \verb|gdal_sieve.py| -- Raster Sieve filter.
+	\item \verb|gdal_fillnodata.py| -- Interpolate to fill no-data regions.
+	\item \verb|gdalmanage| -- Identify, copy, rename and delete raster.
+	\item \verb|gdalcompare.py| -- Compare two images and report on differences.
 
 #### The KEA File Format
 The KEA file format developed by \citet{BuntingGillingham2013} and named after the New Zealand bird (Kea) is a HDF5 based image file format with a GDAL driver. Therefore, the format can be used in any software using GDAL, provided the KEA library is available. It offers support for large raster attribute tables and uses zlib based compression to provide small file sizes. The development was funded and supported by Landcare Research, New Zealand.
@@ -43,5 +54,5 @@ TuiView is an open source viewer for remote sensing data, named after the New Ze
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDIxNzYxMzEsMTE0NzExNTAxNF19
+eyJoaXN0b3J5IjpbLTI4ODM0NDk4OCwxMTQ3MTE1MDE0XX0=
 -->
