@@ -28,7 +28,7 @@ For installation of the RSGISLib software and tools please see the [Software Pag
 
 ### Other Software Tools
 
-Alongside RSGISLib we use other tools, such as the 
+Alongside RSGISLib we use other tools, such as the [GDAL](https://www.gdal.org) software, KEA file format and TuiView image viewer. 
 
 #### The KEA File Format
 The KEA file format developed by \citet{BuntingGillingham2013} and named after the New Zealand bird (Kea) is a HDF5 based image file format with a GDAL driver. Therefore, the format can be used in any software using GDAL, provided the KEA library is available. It offers support for large raster attribute tables and uses zlib based compression to provide small file sizes. The development was funded and supported by Landcare Research, New Zealand.
@@ -38,5 +38,5 @@ TuiView is an open source viewer for remote sensing data, named after the New Ze
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE0NTk0MDMsMTE0NzExNTAxNF19
+eyJoaXN0b3J5IjpbLTY5NDQ1ODc3NCwxMTQ3MTE1MDE0XX0=
 -->
