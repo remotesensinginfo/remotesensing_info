@@ -11,6 +11,7 @@ This course aims to provide a basic introduction to the Remote Sensing and GIS L
 
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NjI5MTk2Nl19
+eyJoaXN0b3J5IjpbMTE5NDI1OTI0OF19
 -->
