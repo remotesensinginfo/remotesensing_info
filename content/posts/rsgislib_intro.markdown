@@ -37,8 +37,8 @@ The [Geospatial Data Abstraction Library (GDAL)](http://www.gdal.org)  software 
 * **gdal_translate** -- Copy a raster file, with control of output format.
 * **gdalwarp** -- Warp an image into a new coordinate system.
 * **gdalbuildvrt** -- Build a Virtual Raster (VRT) from a list of datasets.
-* **gdal_merge.py| -- Build a quick mosaic from a set of images.
-	\item \verb|gdal_rasterize| -- Rasterise vectors into raster file.
+* **gdal_merge.py** -- Build a quick mosaic from a set of images.
+* **gdal_rasterize** -- Rasterise vectors into raster file.
 	\item \verb|gdal_proximity.py| -- Compute a raster proximity map.
 	\item \verb|gdal_polygonize.py| -- Generate polygons from raster.
 	\item \verb|gdal_sieve.py| -- Raster Sieve filter.
@@ -54,5 +54,5 @@ TuiView is an open source viewer for remote sensing data, named after the New Ze
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4ODM0NDk4OCwxMTQ3MTE1MDE0XX0=
+eyJoaXN0b3J5IjpbNzQ5NjI4NTgyLDExNDcxMTUwMTRdfQ==
 -->
