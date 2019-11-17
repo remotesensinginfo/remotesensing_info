@@ -51,9 +51,15 @@ TuiView is an open source viewer for remote sensing data, named after the New Ze
 ## Simple Script
 Within RSGISLib the user interface is Python functions. For example, the following script calculates the Normalised Difference Vegetation Index (NDVI):
 
-$e=mc^2$
+$$
+NDVI = \frac{NIR-RED}{NIR+RED}
+$$
 
+    import rsgislib
+    import rsgislib.imagecalc
+    dssd
+    
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY2MzYxNTkzLDUzNTY4MDM0MywtMTcxNj
-MyNzA4NSwxMTQ3MTE1MDE0XX0=
+eyJoaXN0b3J5IjpbLTIwODA5MzU0MTEsNTM1NjgwMzQzLC0xNz
+E2MzI3MDg1LDExNDcxMTUwMTRdfQ==
 -->
