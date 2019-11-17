@@ -69,9 +69,9 @@ If the input image has a no data value of 0 then the script can be editted, as f
     rsgislib.imagecalc.imageBandMath("landsat8_img.kea",  "landsat8_ndvi.kea",  "(b4==0)||(b5==0)?9999:(b5-b4)/(b5+b4)",  "KEA",  rsgislib.TYPE_32FLOAT)
     rsgislib.imageutils.popImageStats("landsat8_ndvi.kea", usenodataval=True, nodataval=9999, calcpyramids=True)
 
-Here, a test is done on the NIR (b5) and Red (b4) bands to see if the value is 0. If it 
+Here, a test is done on the NIR (b5) and Red (b4) bands to see if the value is 0. If either are zero then an output pixel value is set at 9999.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0Njg0NTQ4MSw1MzU2ODAzNDMsLTE3MT
+eyJoaXN0b3J5IjpbMjEzMzQ1NDU2NCw1MzU2ODAzNDMsLTE3MT
 YzMjcwODUsMTE0NzExNTAxNF19
 -->
