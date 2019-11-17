@@ -48,9 +48,10 @@ The KEA file format developed by \citet{BuntingGillingham2013} and named after t
 #### TuiView
 TuiView is an open source viewer for remote sensing data, named after the New Zealand bird (Tui). Although primarily for viewing raster data but it will also display vectors. One of the main advantages of TuiView is it has a lot of functionality for viewing and manipulating Raster Attribute Tables (RAT), which the object-based classification within RSGISLib is build on top of. TuiView is cross platform and provides a consistent interface across Windows, Linux and Mac platforms. It is capable of handling very large datasets, providing overviews are generated.
 
-## Simple Sc
+## Simple Script
+Within RSGISLib the user interface is Python functions. For example, the following 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMyNDU5MjAzLC0xNzE2MzI3MDg1LDExND
-cxMTUwMTRdfQ==
+eyJoaXN0b3J5IjpbLTI2NjIyMjU2MywtMTcxNjMyNzA4NSwxMT
+Q3MTE1MDE0XX0=
 -->
