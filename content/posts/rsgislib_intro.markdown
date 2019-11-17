@@ -58,8 +58,9 @@ $$
     import rsgislib
     import rsgislib.imagecalc
     
-    rsgislib.imagecalc.imageBandMath("landsat_img.kea",  "landsat_ndvi.kea",  _exp_,  "KEA",  rsgislib.TYPE_32FLOAT)
+    rsgislib.imagecalc.imageBandMath("landsat8_img.kea",  "landsat8_ndvi.kea",  "(b5-b4)/(b5+b4)",  "KEA",  rsgislib.TYPE_32FLOAT)
+    rsgislib.imageutils.popImageStats("landsat8_ndvi.kea", usenodataval=True_, _nodataval=0_, _calcpyramids=True)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg0ODA3NzgyLDUzNTY4MDM0MywtMTcxNj
-MyNzA4NSwxMTQ3MTE1MDE0XX0=
+eyJoaXN0b3J5IjpbLTEwOTc3OTk0NTMsNTM1NjgwMzQzLC0xNz
+E2MzI3MDg1LDExNDcxMTUwMTRdfQ==
 -->
