@@ -8,7 +8,6 @@ SITEURL = ''
 
 THEME = 'theme'
 
-
 PATH = 'content'
 
 TIMEZONE = 'Europe/London'
@@ -36,6 +35,9 @@ SOCIAL = (('Bitbucket', 'https://bitbucket.org/petebunting/'),
          ('GitHub', 'https://github.com/petebunting'),)
 
 DEFAULT_PAGINATION = False
+
+PLUGIN_PATHS=['./plugins']
+PLUGINS = ['render_math']
 
 
 # Uncomment following line if you want document-relative URLs when developing
