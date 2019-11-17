@@ -71,7 +71,8 @@ If the input image has a no data value of 0 then the script can be editted, as f
 
 Here, a test is done on the NIR (b5) and Red (b4) bands to see if the value is 0. If either are zero then an output pixel value is set at 9999.
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMzQ1NDU2NCw1MzU2ODAzNDMsLTE3MT
+eyJoaXN0b3J5IjpbLTcxMDk0NTc3NCw1MzU2ODAzNDMsLTE3MT
 YzMjcwODUsMTE0NzExNTAxNF19
 -->
