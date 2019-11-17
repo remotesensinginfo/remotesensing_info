@@ -66,11 +66,11 @@ If the input image has a no data value of 0 then the script can be editted as fo
     import rsgislib
     import rsgislib.imagecalc
     
-    rsgislib.imagecalc.imageBandMath("landsat8_img.kea",  "landsat8_ndvi.kea",  "(b5==0)||(b4==0)?999:(b5-b4)/(b5+b4)",  "KEA",  rsgislib.TYPE_32FLOAT)
-    rsgislib.imageutils.popImageStats("landsat8_ndvi.kea", usenodataval=True, nodataval=999, calcpyramids=True)
+    rsgislib.imagecalc.imageBandMath("landsat8_img.kea",  "landsat8_ndvi.kea",  "(b5==0)||(b4==0)?9999:(b5-b4)/(b5+b4)",  "KEA",  rsgislib.TYPE_32FLOAT)
+    rsgislib.imageutils.popImageStats("landsat8_ndvi.kea", usenodataval=True, nodataval=9999, calcpyramids=True)
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3ODUxMjQ5OSw1MzU2ODAzNDMsLTE3MT
-YzMjcwODUsMTE0NzExNTAxNF19
+eyJoaXN0b3J5IjpbMzQxNjM3NTEsNTM1NjgwMzQzLC0xNzE2Mz
+I3MDg1LDExNDcxMTUwMTRdfQ==
 -->
