@@ -63,8 +63,14 @@ $$
    
 If the input image has a no data value of 0 then the script can be editted as follows so the output image will have a no data value of 9999.
 
+    import rsgislib
+    import rsgislib.imagecalc
+    
+    rsgislib.imagecalc.imageBandMath("landsat8_img.kea",  "landsat8_ndvi.kea",  "(b5==0)||(b4==0)?999:(b5-b4)/(b5+b4)",  "KEA",  rsgislib.TYPE_32FLOAT)
+    rsgislib.imageutils.popImageStats("landsat8_ndvi.kea", usenodataval=True, nodataval=999, calcpyramids=True)
+   
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNDEzNDk4MSw1MzU2ODAzNDMsLTE3MT
+eyJoaXN0b3J5IjpbMTA3ODUxMjQ5OSw1MzU2ODAzNDMsLTE3MT
 YzMjcwODUsMTE0NzExNTAxNF19
 -->
