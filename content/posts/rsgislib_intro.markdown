@@ -57,9 +57,9 @@ $$
 
     import rsgislib
     import rsgislib.imagecalc
-    dssd
     
+    rsgislib.imagecalc.imageBandMath("landsat_img.kea",  "landsat_ndvi.kea",  _exp_,  "KEA",  rsgislib.TYPE_32FLOAT)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODA5MzU0MTEsNTM1NjgwMzQzLC0xNz
-E2MzI3MDg1LDExNDcxMTUwMTRdfQ==
+eyJoaXN0b3J5IjpbODg0ODA3NzgyLDUzNTY4MDM0MywtMTcxNj
+MyNzA4NSwxMTQ3MTE1MDE0XX0=
 -->
