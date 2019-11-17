@@ -61,16 +61,17 @@ $$
     rsgislib.imagecalc.imageBandMath("landsat8_img.kea",  "landsat8_ndvi.kea",  "(b5-b4)/(b5+b4)",  "KEA",  rsgislib.TYPE_32FLOAT)
     rsgislib.imageutils.popImageStats("landsat8_ndvi.kea", usenodataval=False, nodataval=0, calcpyramids=True)
    
-If the input image has a no data value of 0 then the script can be editted as follows so the output image will have a no data value of 9999.
+If the input image has a no data value of 0 then the script can be editted, as follows, so the output image will have a no data value of 9999.
 
     import rsgislib
     import rsgislib.imagecalc
     
-    rsgislib.imagecalc.imageBandMath("landsat8_img.kea",  "landsat8_ndvi.kea",  "(b5==0)||(b4==0)?9999:(b5-b4)/(b5+b4)",  "KEA",  rsgislib.TYPE_32FLOAT)
+    rsgislib.imagecalc.imageBandMath("landsat8_img.kea",  "landsat8_ndvi.kea",  "(b4==0)||(b5==0)?9999:(b5-b4)/(b5+b4)",  "KEA",  rsgislib.TYPE_32FLOAT)
     rsgislib.imageutils.popImageStats("landsat8_ndvi.kea", usenodataval=True, nodataval=9999, calcpyramids=True)
-   
+
+Here, a test is done on the NIR (b5) and Red (b4) bands to see if the value is 0. If it 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQxNjM3NTEsNTM1NjgwMzQzLC0xNzE2Mz
-I3MDg1LDExNDcxMTUwMTRdfQ==
+eyJoaXN0b3J5IjpbMjA0Njg0NTQ4MSw1MzU2ODAzNDMsLTE3MT
+YzMjcwODUsMTE0NzExNTAxNF19
 -->
