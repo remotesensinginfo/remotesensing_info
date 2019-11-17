@@ -48,7 +48,7 @@ The KEA file format developed by \citet{BuntingGillingham2013} and named after t
 #### TuiView
 TuiView is an open source viewer for remote sensing data, named after the New Zealand bird (Tui). Although primarily for viewing raster data but it will also display vectors. One of the main advantages of TuiView is it has a lot of functionality for viewing and manipulating Raster Attribute Tables (RAT), which the object-based classification within RSGISLib is build on top of. TuiView is cross platform and provides a consistent interface across Windows, Linux and Mac platforms. It is capable of handling very large datasets, providing overviews are generated.
 
-## Simple Script
+## Simple Script: Calculate NDVI
 Within RSGISLib the user interface is Python functions. For example, the following script calculates the Normalised Difference Vegetation Index (NDVI):
 
 $$
@@ -73,6 +73,6 @@ Here, a test is done on the NIR (b5) and Red (b4) bands to see if the value is 0
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMDk0NTc3NCw1MzU2ODAzNDMsLTE3MT
-YzMjcwODUsMTE0NzExNTAxNF19
+eyJoaXN0b3J5IjpbMTExNzA0NjUzNywtNzEwOTQ1Nzc0LDUzNT
+Y4MDM0MywtMTcxNjMyNzA4NSwxMTQ3MTE1MDE0XX0=
 -->
