@@ -3,7 +3,7 @@ slug: eo
 category: Earth Observation
 tags: Python, RSGISLib, Image Processing, Composites
 date: 2018-03-27
-modified: 2019-11-15
+modified: 2019-11-18
 
 Create image composites can be useful for many applications but it can be difficult to do well and efficiently. The following tutorial shows how to create a maximum NDVI composite for two Landsat row/paths for 2005 and 2010.
 
@@ -17,5 +17,5 @@ Create image composites can be useful for many applications but it can be diffic
 
 Out of interest, the two composite images show some nice mangrove change in French Guiana.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NjQwNTkyXX0=
+eyJoaXN0b3J5IjpbLTE3MTIyNzU4ODUsMTA4NjQwNTkyXX0=
 -->
