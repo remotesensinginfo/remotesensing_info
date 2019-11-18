@@ -1,5 +1,4 @@
-title: Introduction to RSGISLib
-slug: eo
+title: Introduction to Data Analysis with  RSGISLib
 category: Earth Observation
 tags: Python, RSGISLib, Image Processing.
 date: 2018-01-20

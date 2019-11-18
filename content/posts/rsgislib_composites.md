@@ -1,5 +1,4 @@
 title: Create Image Composites Using RSGISLib
-slug: eo
 category: Earth Observation
 tags: Python, RSGISLib, Image Processing, Composites
 date: 2018-03-27

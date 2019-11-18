@@ -1,5 +1,4 @@
-title: Create Image Composites Using RSGISLib
-slug: eo
+title: Introduction to Change Detection using  RSGISLib
 category: Earth Observation
 tags: Python, RSGISLib, Image Processing, Change
 date: 2018-03-22
