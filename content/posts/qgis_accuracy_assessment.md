@@ -1,4 +1,4 @@
-title: # Classification Accuracy QGIS Plugin
+title: Classification Accuracy QGIS Plugin
 category: Earth Observation
 tags: QGIS, Python, Accuracy Assessment, RSGISLib
 date: 2018-03-22
@@ -11,5 +11,5 @@ We’ve written a plugin for QGIS which allows the accuracy of classification to
 
 The latest version of the plugin can be download from the  [bitbucket repository](https://bitbucket.org/petebunting/classaccuracy/downloads/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MjQ5MzgwNF19
+eyJoaXN0b3J5IjpbMjUxMzgxNzUxXX0=
 -->
