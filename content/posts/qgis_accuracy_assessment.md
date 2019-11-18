@@ -1,6 +1,6 @@
-title: Create Image Composites Using RSGISLib
+title: # Classification Accuracy QGIS Plugin
 category: Earth Observation
-tags: Python, RSGISLib, Image Processing, Composites
+tags: QGIS, Python, Accuracy Assessment, RSGISLib
 date: 2018-03-22
 modified: 2019-11-18
 
@@ -11,5 +11,5 @@ We’ve written a plugin for QGIS which allows the accuracy of classification to
 
 The latest version of the plugin can be download from the  [bitbucket repository](https://bitbucket.org/petebunting/classaccuracy/downloads/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTU1ODA5NzJdfQ==
+eyJoaXN0b3J5IjpbLTk4MjQ5MzgwNF19
 -->
