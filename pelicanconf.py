@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Pete Bunting'
-SITENAME = 'Remote Sensing dot Info'
+SITENAME = 'Remote Sensing . Info'
 SITEURL = ''
 
 THEME = 'theme'
