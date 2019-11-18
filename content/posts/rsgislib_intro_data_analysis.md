@@ -7,12 +7,12 @@ modified: 2019-11-18
 
 Updated during January 2018, this tutorial provides an introduction to the Remote Sensing and GIS Software library. The tutorial includes:
 
--   Image band maths
--   Create python command line tools
--   Using the python multi-processing library
--   Per-pixel based image classification
--   Object Base image classification
--   Image segmentation
+*   Image band maths
+*   Create python command line tools
+*   Using the python multi-processing library
+*   Per-pixel based image classification
+*   Object Base image classification
+*   Image segmentation
 
 The tutorial using ALOS PALSAR and Landsat Image. The documents can be downloaded from the links below:
 
@@ -31,5 +31,5 @@ Datasets:
 -   [Sundarbans_Clumps.kea](https://www.dropbox.com/s/mllxwuqktf8c15s/Sundarbans_Clumps.keahttps://www.dropbox.com/s/mllxwuqktf8c15s/Sundarbans_Clumps.kea)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MzU5NjU4XX0=
+eyJoaXN0b3J5IjpbLTE5MjA5MTA1MThdfQ==
 -->
