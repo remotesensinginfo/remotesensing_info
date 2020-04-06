@@ -29,6 +29,4 @@ Datasets:
 -   [Sundarbans_201511_Landsat.kea](https://www.dropbox.com/s/y6vicgx907ldv91/Sundarbans_201511_Landsat.kea)
 -   [Sundarbans_Clumps.kea](https://www.dropbox.com/s/mllxwuqktf8c15s/Sundarbans_Clumps.keahttps://www.dropbox.com/s/mllxwuqktf8c15s/Sundarbans_Clumps.kea)
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjA5MTA1MThdfQ==
--->
+
