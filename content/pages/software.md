@@ -9,24 +9,34 @@ Summary: Software Tools and Installation
 
 ### Conda
 
-If you wish to install RSGISLib, ARCSI and the other tools we make available using the conda Python package manager then this video provides a complete run through of the process:
+If you wish to install RSGISLib, ARCSI and the other tools we make available using the conda Python package manager then this video provides a complete run through of the process. Note, the recommended options and versions have been updated from the video so take those from the following commands:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9HqKLioyAeM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-The commands for completing the installation are:
+I would now recommend that you use the [mamba](https://github.com/mamba-org/mamba)  command, rather than [conda](https://docs.conda.io) for the installation as it is quicker and easier. [Mamba](https://github.com/mamba-org/mamba) is a reimplmentation of conda using C++ rather than python. Therefore, all you need to do is to install mamba into your conda environment (command below) and then replace conda with mamba in all the commands you run.
+
+    :::bash
+    conda install mamba -n base -c conda-forge
+
+
+Commands for create an environment and installing RSGISLib, ARCSI etc.
     
     :::bash
     # Create a New Environment
-    conda create -n osgeo-env-v1 python=3.7
+    conda create -n osgeo-env-v1 python=3.10
     
     # Change to the environment
     source activate osgeo-env-v1
     
-    # Install Software
-    conda install -c conda-forge arcsi tuiview 
+    # Install RSGISLib and ARCSI
+    mamba install -c conda-forge rsgislib arcsi tuiview
     
-    # If you have any problems following installation then try running:
-    conda update -c conda-forge --all
+    # Install RSGISLib other useful packages:
+    mamba install -c conda-forge rsgislib h5py parallel scikit-learn scikit-image matplotlib pandas geopandas statsmodels scipy rasterio shapely networkx sqlalchemy pycurl seaborn numba pip rtree pygal jupyterlab pysal libpysal esda pyyaml netcdf4 xarray fiona psycopg2 ipywidgets contextily cvxopt feather-format pyod xlsxwriter openpyxl SALib tuiview
+    
+    # Some extras only avilable via pip
+    pip install matplotlib_scalebar pysptools
+
 
 ### Docker and Singularity
 The easiest way to install our software is through Docker or Singularity, as shown below:
@@ -36,22 +46,22 @@ The easiest way to install our software is through Docker or Singularity, as sho
     docker pull petebunting/au-eoed
     
     # Pull the docker image using singularity
-    singularity pull docker://petebunting/au-eoed
+    singularity build au-eoed.sif docker://petebunting/au-eoed
 
 ## Software We Maintain
 
 ### RSGISLib
-[https://www.rsgislib.org](https://www.rsgislib.org)
+[http://www.rsgislib.org](https://www.rsgislib.org)
 
 The remote sensing and GIS software library, tools for processing image and vector datasets using Python.
 
 ### ARCSI
-[https://arcsi.remotesensing.info](https://arcsi.remotesensing.info)
+[http://remotesensing.info/arcsi](http://remotesensing.info/arcsi)
 
-A set of tools for the automated productions of Analysis Ready Optical Data (ARD). Supports Landsat, Sentinel-2, Rapideye, WorldView etc.
+A set of tools for the automated productions of Analysis Ready Optical Data (ARD). Supports Landsat and Sentinel-2.
 
 ### EODataDown
-[https://eodatadown.remotesensing.info](https://eodatadown.remotesensing.info)
+[http://remotesensing.info/eodatadown](http://remotesensing.info/eodatadown)
 
 Software for creating an EO based monitoring system.
 

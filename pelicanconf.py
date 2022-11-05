@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Pete Bunting'
 SITENAME = 'Remote Sensing . Info'
-SITEURL = ''
+SITEURL = 'http://remotesensing.info'
 
 THEME = 'theme'
 
@@ -22,17 +22,17 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('RSGISLib', 'https://www.rsgislib.org'),
-         ('ARCSI', 'https://arcsi.remotesensing.info'),
-         ('EODataDown', 'https://eodatadown.remotesensing.info'),
-         ('KEALib', 'https://kealib.org'),
-         ('SPDlib', 'https://www.spdlib.org'),
-         ('pylidar', 'https://pylidar.org'),
-         ('TuiView', 'https://tuiview.org'),)
+LINKS = (('RSGISLib', 'http://www.rsgislib.org'),
+         ('ARCSI', 'http://remotesensing.info/arcsi'),
+         ('EODataDown', 'http://remotesensing.info/eodatadown'),
+         ('KEALib', 'http://kealib.org'),
+         ('SPDlib', 'http://www.spdlib.org'),
+         ('pylidar', 'http://pylidar.org'),
+         ('TuiView', 'http://tuiview.org'),)
 
 # Social widget
-SOCIAL = (('Bitbucket', 'https://bitbucket.org/petebunting/'),
-         ('GitHub', 'https://github.com/petebunting'),)
+SOCIAL = (('GitHub', 'https://github.com/petebunting'),
+          ('YouTube', 'https://www.youtube.com/drpetebunting'),)
 
 DEFAULT_PAGINATION = False
 
